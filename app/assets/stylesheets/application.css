@@ -13,3 +13,125 @@
  *= require_tree .
  *= require_self
  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body{
+    width:100%;
+    margin:33px;
+    font-family:verdana,arial,helvetica,sans-serif;
+    font-size:16px;
+}
+
+h1{
+    display:block;
+    font-weight:bold;
+    font-size:2em;
+    margin:0.4em 0.4em 0.4em 0.2em;
+}
+
+
+h4{
+    font-size:15px;
+    font-weight:normal;
+    font-family:verdana,arial,helvetica,sans-serif;
+}
+
+
+.field{
+    margin:0.4em 0.4em 10px 0.6em;
+    display:block;
+}
+
+
+.start-link{
+  font-size:13px;
+  line-height:35px;
+  color:#000;
+  cursor:pointer;
+  text-decoration:underline;
+  margin:1em;
+  padding:0px;
+  display:inline-block;
+}
+
+.start-link-show{
+  font-size:13px;
+  line-height:15px;
+  color:#000;
+  cursor:pointer;
+  text-decoration:underline;
+  margin-right:0.5em;
+  padding-right:9px;
+  display:inline-block;
+  border-right:solid 1.5px black;
+}
+
+.start-link-back{
+   font-size:13px;
+   line-height:35px;
+   color:#000;
+   cursor:pointer;
+   text-decoration:underline;
+   margin-right:0.5em;
+   display:inline-block;
+}
+
+.start-link-edit{
+  font-size:13px;
+  line-height:15px;
+  color:#000;
+  cursor:pointer;
+  text-decoration:underline;
+  margin-right:0.5em;
+  padding-right:9px;
+  display:inline-block;
+  border-right:solid 1.5px black;
+}
+
+.book-links{
+    display:block;
+    margin-left:0.7em;
+}
+
+form{
+    display:block;
+    margin-top:0em;
+}
+
+
+.book-title{
+   display:flex;
+   margin-left:2em;
+   margin-bottom:10px;
+   font-size:15px;
+   font-weight:normal;
+   font-family:verdana,arial,helvetica,sans-serif
+}
+
+.book-body{
+   display:flex;
+   margin-left:2em;
+   margin-bottom:5px;
+   font-size:15px;
+   font-weight:normal;
+   font-family:verdana,arial,helvetica,sans-serif
+}
+
+.book-record{
+    display:inline-block;
+    margin-left:0.5em
+}
+
+
+
+
+
+
+
+
+
