@@ -43,7 +43,7 @@ h4{
 
 
 .field{
-    margin:0.4em 0.4em 10px 0.6em;
+    margin:0.4em 0.4em 0.6em 0.6em;
     display:block;
 }
 
@@ -126,6 +126,8 @@ form{
     display:inline-block;
     margin-left:0.5em
 }
+
+
 
 
 
