@@ -1,0 +1,129 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+h2{
+    display:block;
+    font-size:1.5em;
+    font-weight:bold;
+    margin:0.4em;
+}
+
+
+table{
+    width:100%;
+    display:table;
+    border-collapse:separate;
+    box-sizing:border-box;
+    text-indent:initial;
+    border-spacing:3px;
+    border-color:gray;
+}
+
+th{
+    padding-bottom:5px;
+    font-weight:bold;
+    text-align:-internal-center;
+    display:table-cell;
+    vertical-align:inherit;
+
+}
+
+tbody{
+  display:table-row-group;
+  vertical-align:middle;
+  border-color:inherit;
+}
+
+tr{
+  display:table-row;
+  vertical-align:inhert;
+  border-color:inherit;
+}
+
+td{
+  padding:0 5px 7px 5px;
+  font-family:verdanna,arial,helvetica,sans-serif;
+  font-size:13px;
+  line-height:18px;
+  margin:33px;
+  display:table-cell;
+  vertical-align:inherit;
+}
+
+.links{
+  font-size:13px;
+  line-height:35px;
+  color:#000;
+  cursor:pointer;
+  text-decoration:underline;
+  margin:1em 4em;
+  padding:0px;
+}
+
+.error-messages{
+    width:450px;
+    height:120px;
+    margin-left:0.5em;
+    border:2px solid red;
+    background-color:#f0f0f0;
+
+}
+
+.error-messages > p{
+    width:100%;
+    padding-left:1em;
+    margin-left:0;
+    margin-top:0;
+    background-color:#c00;
+    color:#fff;
+    font-weight:bold;
+}
+
+.edit-error-messages{
+    width:450px;
+    height:120px;
+    padding-top:0;
+    margin-left:0.5em;
+    border:2px solid red;
+    background-color:#f0f0f0;
+}
+
+.edit-error-messages > p{
+    width:100%;
+    padding-left:1em;
+    margin-left:0;
+    background-color:#c00;
+    color:#fff;
+    font-weight:bold;
+    margin-top:-25px;
+}
+
+ul{
+    margin-left:5em;
+    margin-top:1.5em;
+
+}
+
+.success-message{
+    font-family:verdana,arial,helvetica,sans-serif;
+    font-size:13px;
+    line-height:18px;
+    padding-left:3px;
+    margin:2em;
+    margin-bottom:1em;
+    color:green;
+}
+
+
+.edit-actions{
+    padding-left:0.6em;
+    margin-top:0.5em;
+}
+
+.new-actions{
+    padding-left:0.6em;
+    margin-top:10px;
+}
+
+

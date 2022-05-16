@@ -1,0 +1,26 @@
+<body>
+
+  <div class="success-message">
+  <% if flash[:notice] %>
+    <div class="flash">
+    <%= flash[:notice] %>
+    </div>
+  <% end %>
+  </div>
+
+  <div class="book-title">
+    <h4><strong>Title:</strong></h4>
+    <div class="book-record"><%= @book.title %></div>
+  </div>
+
+  <div class="book-body">
+    <h4><strong>Body:</strong></h4>
+    <div class="book-record"><%= @book.body %></div>
+  </div>
+
+  <div clas="book-links">
+    <div class="start-link-edit"><%= link_to "Edit", edit_book_path(@book.id) %></div>
+    <div class="start-link-back"><%= link_to "Back", books_path %></div>
+  </div>
+
+</body>
